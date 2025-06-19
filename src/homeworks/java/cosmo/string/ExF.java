@@ -11,6 +11,8 @@ package homeworks.java.cosmo.string;
 public class ExF {
     public static void main(String[] args) {
         String phoneNumber = "89806567890";
+        phoneNumber = phoneNumber.replaceFirst("8", "+7");
+        System.out.println(phoneNumber);
 
     }
 }

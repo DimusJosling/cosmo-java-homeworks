@@ -10,6 +10,6 @@ package homeworks.java.cosmo.string;
 public class ExE {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
-
+        System.out.println(input.toUpperCase());
     }
 }
